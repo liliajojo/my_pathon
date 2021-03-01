@@ -61,9 +61,36 @@ list_2 = []
  #   res = r ** 2
  #   list_2.append(res) 
 
-for r in list_1[::-1]:
-    res = r ** 2
-    list_2.append(res)
+#for r in list_1[::-1]:
+#    res = r ** 2
+ #   list_2.append(res)
 
-print(r)
+#for r in range(0, 20):
+#   print(r)
+
+
+#for r in range(20):
+#  print(r)
+
+#for r in range(5):
+#  print("Hui") 
+
+#for val in range(10, 200, 300):
+ # if val == 150:
+ #   break
+ # print(val)
+
+
+ # генератор списка
+
+my_my = [nom for nom in range(9)]
+
+my_my = [nom for nom in range(10, 100, 10)]
+
+my_my = [nom for nom in range(10, 100, 10)[::-1]]
+
+my_my = [nom for nom in range(10, 100, 10)[::-1]]
+my_my.reverse()
+  
+print(my_my)
 
